@@ -1,0 +1,40 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background-image: url("thankyou.jpg");
+    font-family: 'Carter One', cursive;
+}
+#container
+{
+    border-radius: 18px;
+    font-size: 50px;
+    color: rgb(255, 153, 0);
+    text-align: center;
+    width: 728px;
+    height: 300px;
+    margin-left: 423px;
+    background-color: white;
+    margin-top: 18%;
+    box-shadow: 10px 10px 15px black;
+}
+#container .btn
+{
+    width: 124px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-family: 'Carter One', cursive;
+    color: rgb(255, 153, 0);
+    border: 2px solid rgb(255, 153, 0);
+    font-size: 20px;
+}
+#container .btn:hover
+{
+    background-color: rgb(255, 153, 0);
+    color: white;
+    cursor: pointer;
+}

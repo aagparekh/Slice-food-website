@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subway</title>
+    <link rel="stylesheet" href="subway.css">
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="subway.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div class="box1">
+            <img src="subway.jpg" alt="Subway" id="subway_main_image">
+            <table id="Subway">
+                <tr id="Subway_heading">
+                    <td colspan="3" style="border-bottom: 2px solid lightgray;">Subway
+                        <br>
+                        <p class="descrip">Goregaon West <span
+                                style="color:darkgreen;padding:0 .3em">&#9679;&#8414;</span></p>
+                    </td>
+                </tr>
+                <tr id="details">
+                    <td><i class="fas fa-star"></i> 4.7 <br>
+                        <p class="descrip">Ratings</p>
+                    </td>
+                    <td><i class="fas fa-clock"></i> 45mins <br>
+                        <p class="descrip">Delivery Time</p>
+                    </td>
+                    <td><i class="fas fa-rupee-sign"></i> 350 <br>
+                        <p class="descrip">Cost for two</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="box2">
+            <h1 id="menu">Menu</h1>
+            <div id="sub-box1">
+                <img src="Aloo Patty.jpg" alt="aloo patty" id="aloo">
+                <h4 class="dish">6 Inch Cheesy Aloo Patty</h4>
+                <h4 class="dish"><i class="fas fa-rupee-sign"></i> 245</h4>
+                <h5 class="dish des">Aloo Patty + Four Cheese Slice</h5>
+                <button class="btn" onclick="order1()" value="aloo">Order Me</button>
+            </div>
+            <div id="sub-box2">
+                <img src="Tandoori.jpg" alt="Tandoori tofu" id="tandoori">
+                <h4 class="dish">Tandoori Tofu Sub</h4>
+                <h4 class="dish"><i class="fas fa-rupee-sign"></i> 190</h4>
+                <h5 class="dish des">Soft diced tofu cubes made of bean curd marinated with Tandoori sauce, spices &
+                    condiments, cooked in an oven to give a smoky effect.</h5>
+                <button class="btn" value="tofu" onclick="order2()">Order Me</button>
+            </div>
+            <div id="sub-box3">
+                <img src="paneer.jpg" alt="Paneer tikka" id="paneer">
+                <h4 class="dish">Paneer Tikka Sub</h4>
+                <h4 class="dish"><i class="fas fa-rupee-sign"></i> 210</h4>
+                <h5 class="dish des">Cottage cheese Slice marinated with barbeque seasoning and roasted to a light
+                    crispness.</h5>
+                <button class="btn" value="paneer" onclick="order3()">Order Me</button>
+            </div>
+        </div>
+    </div>
+    <div id="container1">
+        <div id="hotel">
+            <img src="subway.jpg" alt="subway" id="hotel_image">
+            <div id="hotel_name">
+                <h3>Subway</h3>
+                <p>Goregaon west</p>
+            </div>
+        </div>
+     <h3 id="dish"> </h5>
+     <p id="price"></p>
+     <div id="bill_details">
+         <h4>Bill details</h4>
+         <p>Item total</p>
+         <p class="item_price" id="price1"></p>
+         <p>Delivery Partner</p>
+         <p class="item_price">Rs 40</p>
+         <p>Taxes & charges</p>
+         <p class="item_price">Rs 28.5</p>
+     </div>
+     <h4>To PAY</h4>
+     <p class="item_price" id="total"></p>
+     <button id="proceed">Place order</button>
+     <button id="cancel" onclick="cancel()">Cancel</button>
+    </div>
+</body>
+
+</html>

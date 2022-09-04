@@ -1,0 +1,128 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+/* =======================================body================================= */
+body
+{
+    font-family: 'Carter One', cursive;
+}
+
+
+/* =====================================Container=============================== */
+
+#container
+{
+    height: 633px; 
+    width: 1342px;
+    display: flex;
+    /* border: solid 2px black; */
+    margin: 10px auto;
+    box-shadow: 10px 10px 15px rgba(128, 128, 128, 0.322);
+    border-radius: 5px;
+}
+#container h1
+{
+    color: rgb(255, 153, 0);
+    text-align: center;
+    font-size: 48px;
+}
+#login-image
+{
+    width: 602px;
+    height: 614px;
+    border-radius: 5px;
+}
+/* ====================================box1======================================= */
+#container #box1
+{
+    /* border: solid 2px green; */
+    text-align: center;
+    height: 84%; 
+    width: 50%;
+    border-right: 10px solid rgba(128, 128, 128, 0.295) ;
+    border-radius: 5px;
+    margin-right: 64px;
+    margin-top: 10px;
+    padding: 124px 0px 0px 0px;
+    box-sizing: border-box;
+}
+#container .textdesign
+{
+    border-radius: 10px;
+    width: 300px; height: 30px;
+}
+/* ===================================box2================================ */
+#container #box2
+{
+    /* border: solid 2px blue; */
+    height: 700px; width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+/* =====================================button=============================== */
+#container #btn
+{
+    width: 300px; 
+    height: 35px;
+    background-color:  rgb(255, 153, 0);
+    color: white;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 153, 0);
+    font-family: 'Carter One', cursive;
+    font-size: 20px;
+    padding: 2px;
+}
+#container #btn:hover
+{
+    box-shadow: 6px 6px 0px rgba(255, 153, 0, 0.514);
+    background-color:  rgb(255, 153, 0);
+    color: white;
+    height: 34px;
+    cursor: pointer;
+
+}
+/* ===================================input================================= */
+#container .textdesign
+{
+    border-radius: 5px;
+    width: 300px; 
+    height: 30px;
+    padding: 4px;
+    border : 2px solid rgba(255, 166, 0, 0.548);
+}
+#container #address
+{
+    border-radius: 10px;
+    border : 2px solid rgba(255, 166, 0, 0.548);
+}
+/* ====================================table================================== */
+#log td
+{
+    text-align: center;
+    padding: 11px 5px;
+}
+#log .td1:hover
+{
+    color: red;
+    cursor: pointer;
+}
+
+
+/* ====================================form================================== */
+#log-in
+{
+    /* border: 2px solid yellow;  */
+    padding: 0px 58px;
+}
+/* ======================================Account=================================== */
+#already:hover 
+{
+    color: rgb(0, 191, 255);
+}
+#already
+{
+    text-decoration: none;
+}

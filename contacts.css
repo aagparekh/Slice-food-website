@@ -1,0 +1,148 @@
+#container
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 10px auto;
+}
+#container h1{
+    color: rgb(255, 153, 0);
+    font-family: 'Carter One', cursive;
+}
+#container #box1
+{
+    width: 50%;
+    height: 100%;
+    padding-top: 0px;
+    padding-left: 30px;
+    background-color: rgba(224, 224, 224, 0.596);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#container #box1 .txt
+{
+    width: 416px;
+    height: 50px;
+    border: solid 2px rgb(255, 153, 0);
+    border-radius: 10px;
+    padding-left: 20px;
+}
+#container #box1 textarea
+{
+    width: 413px;
+    border: solid 2px rgb(255, 153, 0);
+    border-radius: 10px;
+    padding: 10px;
+}
+#container #box1 #btn
+{
+    width: 119px;
+    height: 39px;
+    background-color: rgb(255, 153, 0) ;
+    color: white;
+    border-radius: 10px;
+    border-style: hidden;
+}
+#container #box1 #btn:hover
+{
+    box-shadow: 6px 6px 0px rgba(255, 153, 0, 0.514);
+    background-color:  rgb(255, 153, 0);
+    color: white;
+    height: 42px;
+    cursor: pointer;
+}
+#container2
+{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ===========================================Support=================================== */
+#container #container2 #support
+{
+    width: 100%;
+    height: 25%;
+    margin: auto 10px 10px 10px;
+    background-color: rgb(4, 4, 145);
+    font-family: 'Carter One', cursive;
+    padding-left: 20px;
+    /* padding-top: 30px; */
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#container #container2 #support p
+{
+    /* border: 2px solid white; */
+    /* margin-top: 62px; */
+    color: white;
+    font-size: large;
+    
+}
+#container #container2 #support img
+{
+    width: 100px; 
+    height: 100 px;
+}
+#container #container2 #support table
+{
+    margin-top: 20px;
+}
+
+
+/* ========================================Info======================================= */
+
+#container #container2 #info
+{
+    background-color: whitesmoke;
+    color: 10px;
+    width: 100%;
+    height: 75%;
+    margin: auto 10px 10px 10px;
+    padding-left: 20px;
+    padding-top: 30px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#container #container2 #info .text
+{
+    font-family: 'Carter One', cursive;
+    font-size: large;
+    color: black;
+}
+#container #container2 #info .subtext
+{
+    font-family: 'Carter One', cursive;
+    font-size: small;
+    color: rgba(169, 169, 169, 0.664)
+}
+/* ===============================================Phone image================================================ */
+#phone
+{
+    width: 134px;
+    height: 91px;
+}
+/* ==============================================clock image====================================================== */
+#clock
+{
+    width: 94px;
+    height: 90px;
+}
+#container #container2 #info #clocktd
+{
+    padding-top: 23px;
+    padding-left: 20px;
+}
+/* ==========================================Mail===================================== */
+#mail
+{
+    width: 81px;
+    height: 91px;
+}
+#container #container2 #info #mailtd
+{
+    padding-top: 23px;
+    padding-left: 20px;
+}
+

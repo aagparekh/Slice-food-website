@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Hut</title>
+    <link rel="stylesheet" href="pizza_hut.css">
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="pizza.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div class="box1">
+            <img src="pizzahut.jpg" alt="Pizza" id="pizza_main_image">
+            <table id="pizzahut">
+                <tr id="pizza_heading">
+                    <td colspan="3" style="border-bottom: 2px solid lightgray;">Pizza Hut
+                        <br>
+                        <p class="descrip">Borivali West <span
+                                style="color:darkgreen;padding:0 .3em">&#9679;&#8414;</span></p>
+                    </td>
+                </tr>
+                <tr id="details">
+                    <td><i class="fas fa-star"></i> 4.3 <br>
+                        <p class="descrip">Ratings</p>
+                    </td>
+                    <td><i class="fas fa-clock"></i> 35mins <br>
+                        <p class="descrip">Delivery Time</p>
+                    </td>
+                    <td><i class="fas fa-rupee-sign"></i> 1000<br>
+                        <p class="descrip">Cost for two</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="box2">
+            <h1 id="menu">Menu</h1>
+            <div id="pizza-box1">
+                <img src="pizza1.jpg" alt="Spiced Paneer" id="spiced_paneer">
+                <h4 class="dish">Spiced Paneer (Medium)</h4>
+                <h4 class="dish"><i class="fas fa-rupee-sign"></i> 439</h4>
+                <h5 class="dish des">Onion,Spiced Paneer,Tomato</h5>
+                <button class="btn" onclick="order1()">Order Me</button>
+            </div>
+            <div id="pizza-box2">
+                <img src="pizza2.jpg" alt="Veggie Feast" id="veggie_feast">
+                <h4 class="dish">Veggie Feast(Medium) </h4>
+                <h4 class="dish"><i class="fas fa-rupee-sign"></i>475</h4>
+                <h5 class="dish des">Herbed onion & green capsicum, sweet corn </h5>
+                <button class="btn" onclick="order2()">Order Me</button>
+            </div>
+            <div id="pizza-box3">
+                <img src="pizza3.jpg" alt="farmer_pick" id="farmer_pick">
+                <h4 class="dish">Farmer's Pick(Medium)</h4>
+                <h4 class="dish"><i class="fas fa-rupee-sign"></i>569</h4>
+                <h5 class="dish des">Herbed onion & green capsicum, red capsicum, mushroom & baby corn</h5>
+                <button class="btn" onclick="order3()">Order Me</button>
+            </div>
+        </div>
+    </div>
+    <div id="container1">
+        <div id="hotel">
+            <img src="pizzahut.jpg" alt="Pizza Hut" id="hotel_image">
+            <div id="hotel_name">
+                <h3>Pizza Hut</h3>
+                <p>Borivali west</p>
+            </div>
+        </div>
+        <h3 id="dish">
+            </h5>
+            <p id="price"></p>
+            <div id="bill_details">
+                <h4>Bill details</h4>
+                <p>Item total</p>
+                <p class="item_price" id="price1"></p>
+                <p>Delivery Partner</p>
+                <p class="item_price">Rs 40</p>
+                <p>Taxes & charges</p>
+                <p class="item_price">Rs 28.5</p>
+            </div>
+            <h4>To PAY</h4>
+            <p class="item_price" id="total"></p>
+            <button id="proceed">Place order</button>
+            <button id="cancel" onclick="cancel()">Cancel</button>
+    </div>
+</body>
+
+</html>

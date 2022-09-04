@@ -1,0 +1,67 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-up</title>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="signup.css">
+    <script src="SignUp.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="box1">
+            <h1>Sign Up</h1>
+            <form action="ThankYou.html" id="sign-up" name="sign_in" onsubmit="return validateSignIn()">
+                <table  id="sign">
+                    <tr>
+                        <td  class="td1">
+                            Name:
+                        </td>
+                        <td><input type="text" placeholder="Enter Name" name="name" class="textdesign"></td>
+                    </tr>
+                    <tr>
+                        <td class="td1">
+                            Address:
+                        </td>
+                        <td><textarea name="address" id="address" cols="40" rows="8">
+                        </textarea></td>
+                    </tr>
+                    <tr>
+                        <td class="td1">
+                            Phone No:
+                        </td>
+                        <td> <input type="text" placeholder="Enter Your Contact" name="contact" class="textdesign"></td>
+                    </tr>
+                    <tr>
+                        <td class="td1">
+                            Username:
+                        </td>
+                        <td> <input type="text" placeholder="Enter Username" name="username" class="textdesign"></td>
+                    </tr>
+                    <tr>
+                        <td class="td1">
+                            Password:
+                        </td>
+                        <td><input type="password" placeholder="Enter Password" name="pass1" class="textdesign"></td>
+                    </tr>
+                    <tr>
+                        <td class="td1">Confirm Password:</td>
+                        <td><input type="password" placeholder="Re-Enter Password" name="pass2" class="textdesign"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button id="btn">Sign Up</button></td>
+
+                    </tr>
+                </table>
+                <h5>Already have account?<a href="login.html" id="already">log in</a></h5>
+            </form>
+        </div>
+        <div id="box2">
+            <img src="signup.jpg" alt="login image" id="signup-image">
+        </div>
+    </div>
+</body>
+
+</html>
